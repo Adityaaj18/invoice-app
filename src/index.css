@@ -1,13 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+   margin: 0;
+   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
+      'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans',
+      'Helvetica Neue', sans-serif;
+   -webkit-font-smoothing: antialiased;
+   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+}
+
+.input {
+   width: 80%;
+}
+
+.invoice {
+   width: 100%;
+   /* height: 120px; */
+   background-color: rgb(99, 102, 241);
+}
+
+.invoice h1 {
+   font-size: 45px;
+   font-weight: 500;
+   padding: 25px;
+   color: #fff;
+}
+
+.invoice-header {
+   font-size: 12px;
+}
+.invoice-header ul li {
+   color: #fff;
+}
+
+.total {
+   font-size: 20px;
+}
+
+.login-page {
+   /* background: url('./img/banner.jpg') center no-repeat; */
+   /* background-color: rgb(99, 102, 241);
+   opacity: 0.5;
+   z-index: 1; */
+   background-color: rgb(236, 236, 252);
 }
