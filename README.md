@@ -8,4 +8,5 @@
 - google auth liabrary
 - react-google-login
 - react-redux
-- dotenc
+- dotenv
+- TailwindCSS
